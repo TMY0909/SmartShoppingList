@@ -1,0 +1,27 @@
+Tu tarea es clasificar el siguiente producto de supermercado. Debes devolver tu respuesta únicamente en formato JSON.
+
+El JSON debe tener una sola clave, "subcategoria", y su valor debe ser UNA de las subcategorías de la lista proporcionada.
+
+Para ayudarte, aquí tienes una guía de etiquetas asociadas a cada subcategoría y el historial de errores previos para este producto.
+
+**Guía de etiquetas por Subcategoría:**
+{{GUIA_TAGS}}
+
+**Historial de Correcciones para este Producto:**
+{{HISTORIAL_ERRORES}}
+
+---
+
+**Producto a clasificar:**
+"{{producto}}"
+
+**Lista de subcategorías válidas:**
+{{LISTA_SUBCATEGORIAS}}
+
+---
+**Ejemplo de respuesta correcta:**
+{
+  "subcategoria": "Fruta y verdura"
+}
+IMPORTANTE: No uses el ejemplo como respuesta por defecto, es solo un ejemplo para mostrarte el formato de respuesta.
+**Tu respuesta (solo el JSON):**

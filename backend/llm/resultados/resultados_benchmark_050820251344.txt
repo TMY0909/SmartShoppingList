@@ -1,0 +1,379 @@
+🧠 Analizando ejecuciones anteriores para aprender de los errores...
+Se han encontrado 105 errores únicos en 49 productos para usar como referencia.
+🚀 Iniciando benchmark de clasificación (con guía de tags y corrección de errores)...
+--------------------------------------------------
+
+🧪 Evaluando modelo: mistral
+  (1/117) ✅ 'Agua mineral natural Bezoya' → Agua
+  (2/117) ✅ 'Refresco Coca-Cola Zero Azúcar' → Refrescos
+  (3/117) ✅ 'Cerveza Radler Steinburg con zumo natural de limón' → Cerveza
+  (4/117) ✅ 'Vino tinto D.O Rioja Crianza Comportillo' → Vino
+  (5/117) ✅ 'Café molido natural Hacendado' → Café
+  (6/117) ✅ 'Leche entera Hacendado' → Lácteos
+  (7/117) ❌ 'Zumo de naranja, zanahoria y jengibre Hacendado' → Bebidas vegetales (Esperado: Zumos)
+  (8/117) ✅ 'Huevos grandes de gallinas criadas en suelo' → Huevos
+  (9/117) ❌ 'Mantequilla sin sal añadida Hacendado' → Aceite y vinagre (Esperado: Lacteos)
+  (10/117) ❌ 'Pan de molde 100% integral Hacendado' → Bollería y repostería (Esperado: Panadería)
+  (11/117) ✅ 'Cereales copos de maíz tostado Hacendado sin gluten' → Galletas y cereales
+  (12/117) ❌ 'Miel de flores Hacendado' → Miel y mermelada (Esperado: Mermelada y miel)
+  (13/117) ✅ 'Aceite de oliva virgen extra Hacendado' → Aceite y vinagre
+  (14/117) ✅ 'Salsa brava Hacendado' → Salsas
+  (15/117) ✅ 'Caldo de pollo Hacendado' → Caldos y cremas
+  (16/117) ❌ 'Atún claro en aceite de girasol Hacendado' → Aceite y vinagre (Esperado: Conservas)
+  (17/117) ✅ 'Lenteja cocida Hacendado' → Arroz, legumbres y pastas
+  (18/117) ✅ 'Arroz redondo Hacendado' → Arroz, legumbres y pastas
+  (19/117) ✅ 'Macarrones Hacendado' → Arroz, legumbres y pastas
+  (20/117) ❌ 'Harina de trigo Hacendado' → Galletas y cereales (Esperado: Panadería)
+  (21/117) ✅ 'Plátano de Canarias IGP' → Fruta y verdura
+  (22/117) ✅ 'Filetes de pechuga de pollo finos' → Carne
+  (23/117) ❌ 'Salmón sin piel y sin espinas Hacendado ultracongelado' → Pescado y marisco (Esperado: Congelados)
+  (24/117) ✅ 'Queso tierno de vaca Hacendado en lonchas' → Quesos
+  (25/117) ❌ 'Yogur natural Hacendado' → Galletas y cereales (Esperado: Lacteos)
+  (26/117) ❌ 'Helado Biscuit Hacendado sabor galleta caramelizada' → Galletas y cereales (Esperado: Congelados)
+  (27/117) ✅ 'Patatas prefritas corte grueso Hacendado ultracongeladas' → Congelados
+  (28/117) ✅ 'Lasaña a la boloñesa Hacendado ultracongelada' → Congelados
+  (29/117) ✅ 'Chocolate negro 85% Hacendado' → Chocolate
+  (30/117) ✅ 'Pipas de girasol tostadas Hacendado' → Frutos secos
+  (31/117) ✅ 'Gel de baño Argán Deliplus' → Higiene personal
+  (32/117) ✅ 'Comida para gato adulto Delikuit con salmón y atún' → Alimentación mascotas
+  (33/117) ✅ 'Cebolla' → Fruta y verdura
+  (34/117) ✅ 'Tomate pera' → Fruta y verdura
+  (35/117) ❌ 'Ajo' → Aceite y vinagre (Esperado: Fruta y verdura)
+  (36/117) ✅ 'Pimiento verde italiano' → Fruta y verdura
+  (37/117) ✅ 'Calabacín' → Fruta y verdura
+  (38/117) ✅ 'Berenjena' → Fruta y verdura
+  (39/117) ✅ 'Champiñón laminado' → Fruta y verdura
+  (40/117) ✅ 'Manzana Golden' → Fruta y verdura
+  (41/117) ✅ 'Pera Conferencia' → Fruta y verdura
+  (42/117) ✅ 'Naranja' → Fruta y verdura
+  (43/117) ✅ 'Limón' → Fruta y verdura
+  (44/117) ✅ 'Carne picada de vacuno' → Carne
+  (45/117) ✅ 'Costillas de cerdo troceadas' → Carne
+  (46/117) ✅ 'Chorizo oreado Hacendado' → Charcutería
+  (47/117) ✅ 'Jamón serrano Hacendado en lonchas' → Charcutería
+  (48/117) ❌ 'Pechuga de pavo Hacendado en lonchas finas' → Carne (Esperado: Charcuteria)
+  (49/117) ✅ 'Salchichas frankfurt Hacendado' → Charcutería
+  (50/117) ❌ 'Merluza en rodajas Hacendado ultracongelada' → Pescado y marisco (Esperado: Congelados)
+  (51/117) ✅ 'Gambón Hacendado ultracongelado' → Congelados
+  (52/117) ❌ 'Mejillones en escabeche Hacendado' → Pescado y marisco (Esperado: Conservas)
+  (53/117) ❌ 'Sardinas en aceite de oliva Hacendado' → Aceite y vinagre (Esperado: Conservas)
+  (54/117) ❌ 'Maíz dulce Hacendado' → Frutos secos (Esperado: Conservas)
+  (55/117) ❌ 'Pimiento rojo asado en tiras Hacendado' → Platos preparados (Esperado: Conservas)
+  (56/117) ❌ 'Aceitunas verdes sin hueso Hacendado' → Aceitunas y olivas (Esperado: Snacks y aperitivos)
+  (57/117) ✅ 'Patatas fritas lisas Hacendado' → Snacks y aperitivos
+  (58/117) ✅ 'Galletas María Hacendado' → Galletas y cereales
+  (59/117) ✅ 'Croissant Hacendado' → Bollería y repostería
+  (60/117) ✅ 'Magdalenas Hacendado' → Bollería y repostería
+  (61/117) ✅ 'Donut Hacendado' → Bollería y repostería
+  (62/117) ❌ 'Yogur griego natural Hacendado' → Galletas y cereales (Esperado: Lacteos)
+  (63/117) ❌ 'Flan de huevo Hacendado' → Bollería y repostería (Esperado: Postres)
+  (64/117) ❌ 'Natillas de vainilla Hacendado' → Galletas y cereales (Esperado: Postres)
+  (65/117) ✅ 'Queso fresco de Burgos Hacendado' → Quesos
+  (66/117) ✅ 'Queso rallado 4 quesos Hacendado' → Quesos
+  (67/117) ❌ 'Nata para cocinar Hacendado' → Galletas y cereales (Esperado: Lacteos)
+  (68/117) ✅ 'Vino blanco D.O Rueda Verdejo Abadía Mantrús' → Vino
+  (69/117) ✅ 'Cerveza clásica Steinburg' → Cerveza
+  (70/117) ✅ 'Refresco de limón Hacendado' → Refrescos
+  (71/117) ❌ 'Tónica Hacendado' → Aceite y vinagre (Esperado: Refrescos)
+  (72/117) ✅ 'Infusión de manzanilla Hacendado' → Infusiones
+  (73/117) ✅ 'Colacao Original' → Cacao
+  (74/117) ❌ 'Sal fina Hacendado' → Aceite y vinagre (Esperado: Sal y bicarbonato)
+  (75/117) ✅ 'Pimienta negra molida Hacendado' → Especias
+  (76/117) ✅ 'Orégano Hacendado' → Especias
+  (77/117) ✅ 'Vinagre de vino blanco Hacendado' → Aceite y vinagre
+  (78/117) ❌ 'Mayonesa Hacendado' → Aceite y vinagre (Esperado: Salsas)
+  (79/117) ✅ 'Ketchup Hacendado' → Salsas
+  (80/117) ❌ 'Mostaza Dijon Hacendado' → Aceite y vinagre (Esperado: Salsas)
+  (81/117) ❌ 'Tomate frito Hacendado' → Fruta y verdura (Esperado: Salsas)
+  (82/117) ✅ 'Tortilla de patatas y cebolla Hacendado' → Platos preparados
+  (83/117) ✅ 'Pizza 4 quesos Hacendado' → Platos preparados
+  (84/117) ✅ 'Salteado de verduras Hacendado ultracongelado' → Congelados
+  (85/117) ✅ 'Paella de marisco Hacendado ultracongelada' → Congelados
+  (86/117) ✅ 'Nueces Hacendado' → Frutos secos
+  (87/117) ✅ 'Almendras tostadas Hacendado' → Frutos secos
+  (88/117) ✅ 'Pistachos tostados Hacendado' → Frutos secos
+  (89/117) ✅ 'Champú pH neutro Deliplus' → Higiene personal
+  (90/117) ✅ 'Desodorante roll-on extra cream Deliplus' → Higiene personal
+  (91/117) ✅ 'Pasta de dientes acción total Deliplus' → Higiene personal
+  (92/117) ✅ 'Crema solar facial FPS 50+ Deliplus' → Protectores solares
+  (93/117) ✅ 'Toallitas de bebé Deliplus' → Higiene infantil
+  (94/117) ❌ 'Pañales talla 4 Deliplus' → Alimentación infantil (Esperado: Higiene infantil)
+  (95/117) ✅ 'Comida para perro adulto Compy con pollo' → Alimentación mascotas
+  (96/117) ❌ 'Lejía normal Bosque Verde' → Aceite y vinagre (Esperado: Productos de limpieza)
+  (97/117) ❌ 'Fregasuelos pino Bosque Verde' → Snacks y aperitivos (Esperado: Productos de limpieza)
+  (98/117) ✅ 'Detergente líquido Marsella Bosque Verde' → Detergentes y suavizantes
+  (99/117) ✅ 'Suavizante ropa hipoalergénico Bosque Verde' → Detergentes y suavizantes
+  (100/117) ❌ 'Lavavajillas a mano ultra Bosque Verde' → Detergentes y suavizantes (Esperado: Productos de limpieza)
+  (101/117) ❌ 'Pastillas para lavavajillas todo en 1 Bosque Verde' → Arroz, legumbres y pastas (Esperado: Productos de limpieza)
+  (102/117) ❌ 'Papel higiénico doble capa Bosque Verde' → Higiene personal (Esperado: Papel y cartón)
+  (103/117) ❌ 'Rollo de cocina Bosque Verde' → Menaje y utensilios (Esperado: Papel y cartón)
+  (104/117) ❌ 'Servilletas de papel Bosque Verde' → Bolsas y envoltorios (Esperado: Papel y cartón)
+  (105/117) ✅ 'Bolsas de basura 30L Bosque Verde' → Bolsas y envoltorios
+  (106/117) ✅ 'Film transparente Bosque Verde' → Bolsas y envoltorios
+  (107/117) ✅ 'Papel de aluminio Bosque Verde' → Bolsas y envoltorios
+  (108/117) ❌ 'Velas de cumpleaños' → Bollería y repostería (Esperado: Menaje y utensilios)
+  (109/117) ❌ 'Pilas alcalinas AA Deliplus' → Higiene personal (Esperado: Menaje y utensilios)
+  (110/117) ❌ 'Bombilla LED estándar E27' → Electrodomésticos (Esperado: Menaje y utensilios)
+  (111/117) ✅ 'Ensaladilla rusa Hacendado' → Platos preparados
+  (112/117) ❌ 'Hummus de garbanzo Hacendado' → Galletas y cereales (Esperado: Platos preparados)
+  (113/117) ✅ 'Gazpacho andaluz Hacendado' → Caldos y cremas
+  (114/117) ❌ 'Salmorejo Hacendado' → Platos preparados (Esperado: Caldos y cremas)
+  (115/117) ✅ 'Bebida de soja Hacendado' → Bebidas vegetales
+  (116/117) ✅ 'Bebida de avena Hacendado' → Bebidas vegetales
+  (117/117) ❌ 'Tofu firme Hacendado' → Congelados (Esperado: Platos preparados)
+
+📊 Resultados para mistral:
+  - Precisión: 77/117 (65.81%)
+  - Tiempo promedio por clasificación: 0.8076 segundos
+--------------------------------------------------
+ Evaluando modelo: llama3
+  (1/117) ✅ 'Agua mineral natural Bezoya' → Agua
+  (2/117) ✅ 'Refresco Coca-Cola Zero Azúcar' → Refrescos
+  (3/117) ✅ 'Cerveza Radler Steinburg con zumo natural de limón' → Cerveza
+  (4/117) ✅ 'Vino tinto D.O Rioja Crianza Comportillo' → Vino
+  (5/117) ✅ 'Café molido natural Hacendado' → Café
+  (6/117) ✅ 'Leche entera Hacendado' → Lácteos
+  (7/117) ❌ 'Zumo de naranja, zanahoria y jengibre Hacendado' → Bebidas vegetales (Esperado: Zumos)
+  (8/117) ❌ 'Huevos grandes de gallinas criadas en suelo' → Carne (Esperado: Huevos)
+  (9/117) ❌ 'Mantequilla sin sal añadida Hacendado' → Quesos (Esperado: Lacteos)
+  (10/117) ❌ 'Pan de molde 100% integral Hacendado' → Bollería y repostería (Esperado: Panadería)
+  (11/117) ✅ 'Cereales copos de maíz tostado Hacendado sin gluten' → Galletas y cereales
+  (12/117) ✅ 'Miel de flores Hacendado' → Mermelada y miel
+  (13/117) ✅ 'Aceite de oliva virgen extra Hacendado' → Aceite y vinagre
+  (14/117) ✅ 'Salsa brava Hacendado' → Salsas
+  (15/117) ✅ 'Caldo de pollo Hacendado' → Caldos y cremas
+  (16/117) ❌ 'Atún claro en aceite de girasol Hacendado' → Pescado y marisco (Esperado: Conservas)
+  (17/117) ❌ 'Lenteja cocida Hacendado' → Fruta y verdura (Esperado: Arroz, legumbres y pastas)
+  (18/117) ✅ 'Arroz redondo Hacendado' → Arroz, legumbres y pastas
+  (19/117) ✅ 'Macarrones Hacendado' → Arroz, legumbres y pastas
+  (20/117) ❌ 'Harina de trigo Hacendado' → Arroz, legumbres y pastas (Esperado: Panadería)
+  (21/117) ✅ 'Plátano de Canarias IGP' → Fruta y verdura
+  (22/117) ✅ 'Filetes de pechuga de pollo finos' → Carne
+  (23/117) ✅ 'Salmón sin piel y sin espinas Hacendado ultracongelado' → Congelados
+  (24/117) ✅ 'Queso tierno de vaca Hacendado en lonchas' → Quesos
+  (25/117) ✅ 'Yogur natural Hacendado' → Lácteos
+  (26/117) ❌ 'Helado Biscuit Hacendado sabor galleta caramelizada' → Galletas y cereales (Esperado: Congelados)
+  (27/117) ✅ 'Patatas prefritas corte grueso Hacendado ultracongeladas' → Congelados
+  (28/117) ✅ 'Lasaña a la boloñesa Hacendado ultracongelada' → Congelados
+  (29/117) ✅ 'Chocolate negro 85% Hacendado' → Chocolate
+  (30/117) ✅ 'Pipas de girasol tostadas Hacendado' → Frutos secos
+  (31/117) ✅ 'Gel de baño Argán Deliplus' → Higiene personal
+  (32/117) ✅ 'Comida para gato adulto Delikuit con salmón y atún' → Alimentación mascotas
+  (33/117) ✅ 'Cebolla' → Fruta y verdura
+  (34/117) ✅ 'Tomate pera' → Fruta y verdura
+  (35/117) ❌ 'Ajo' → Especias (Esperado: Fruta y verdura)
+  (36/117) ✅ 'Pimiento verde italiano' → Fruta y verdura
+  (37/117) ✅ 'Calabacín' → Fruta y verdura
+  (38/117) ✅ 'Berenjena' → Fruta y verdura
+  (39/117) ✅ 'Champiñón laminado' → Fruta y verdura
+  (40/117) ✅ 'Manzana Golden' → Fruta y verdura
+  (41/117) ✅ 'Pera Conferencia' → Fruta y verdura
+  (42/117) ✅ 'Naranja' → Fruta y verdura
+  (43/117) ❌ 'Limón' → Aceite y vinagre (Esperado: Fruta y verdura)
+  (44/117) ✅ 'Carne picada de vacuno' → Carne
+  (45/117) ✅ 'Costillas de cerdo troceadas' → Carne
+  (46/117) ❌ 'Chorizo oreado Hacendado' → Carne (Esperado: Charcuteria)
+  (47/117) ❌ 'Jamón serrano Hacendado en lonchas' → Carne (Esperado: Charcuteria)
+  (48/117) ❌ 'Pechuga de pavo Hacendado en lonchas finas' → Carne (Esperado: Charcuteria)
+  (49/117) ❌ 'Salchichas frankfurt Hacendado' → Carne (Esperado: Charcuteria)
+  (50/117) ✅ 'Merluza en rodajas Hacendado ultracongelada' → Congelados
+  (51/117) ✅ 'Gambón Hacendado ultracongelado' → Congelados
+  (52/117) ❌ 'Mejillones en escabeche Hacendado' → Pescado y marisco (Esperado: Conservas)
+  (53/117) ❌ 'Sardinas en aceite de oliva Hacendado' → Pescado y marisco (Esperado: Conservas)
+  (54/117) ❌ 'Maíz dulce Hacendado' → Frutos secos (Esperado: Conservas)
+  (55/117) ❌ 'Pimiento rojo asado en tiras Hacendado' → Fruta y verdura (Esperado: Conservas)
+  (56/117) ❌ 'Aceitunas verdes sin hueso Hacendado' → Fruta y verdura (Esperado: Snacks y aperitivos)
+  (57/117) ❌ 'Patatas fritas lisas Hacendado' → Galletas y cereales (Esperado: Snacks y aperitivos)
+  (58/117) ✅ 'Galletas María Hacendado' → Galletas y cereales
+  (59/117) ✅ 'Croissant Hacendado' → Bollería y repostería
+  (60/117) ✅ 'Magdalenas Hacendado' → Bollería y repostería
+  (61/117) ✅ 'Donut Hacendado' → Bollería y repostería
+  (62/117) ❌ 'Yogur griego natural Hacendado' → Postres (Esperado: Lacteos)
+  (63/117) ✅ 'Flan de huevo Hacendado' → Postres
+  (64/117) ✅ 'Natillas de vainilla Hacendado' → Postres
+  (65/117) ✅ 'Queso fresco de Burgos Hacendado' → Quesos
+  (66/117) ✅ 'Queso rallado 4 quesos Hacendado' → Quesos
+  (67/117) ❌ 'Nata para cocinar Hacendado' → Congelados (Esperado: Lacteos)
+  (68/117) ✅ 'Vino blanco D.O Rueda Verdejo Abadía Mantrús' → Vino
+  (69/117) ✅ 'Cerveza clásica Steinburg' → Cerveza
+  (70/117) ✅ 'Refresco de limón Hacendado' → Refrescos
+  (71/117) ❌ 'Tónica Hacendado' → Aceite y vinagre (Esperado: Refrescos)
+  (72/117) ✅ 'Infusión de manzanilla Hacendado' → Infusiones
+  (73/117) ✅ 'Colacao Original' → Cacao
+  (74/117) ❌ 'Sal fina Hacendado' → Aceite y vinagre (Esperado: Sal y bicarbonato)
+  (75/117) ✅ 'Pimienta negra molida Hacendado' → Especias
+  (76/117) ✅ 'Orégano Hacendado' → Especias
+  (77/117) ✅ 'Vinagre de vino blanco Hacendado' → Aceite y vinagre
+  (78/117) ❌ 'Mayonesa Hacendado' → Aceite y vinagre (Esperado: Salsas)
+  (79/117) ✅ 'Ketchup Hacendado' → Salsas
+  (80/117) ❌ 'Mostaza Dijon Hacendado' → Aceite y vinagre (Esperado: Salsas)
+  (81/117) ❌ 'Tomate frito Hacendado' → Fruta y verdura (Esperado: Salsas)
+  (82/117) ✅ 'Tortilla de patatas y cebolla Hacendado' → Platos preparados
+  (83/117) ✅ 'Pizza 4 quesos Hacendado' → Platos preparados
+  (84/117) ✅ 'Salteado de verduras Hacendado ultracongelado' → Congelados
+  (85/117) ✅ 'Paella de marisco Hacendado ultracongelada' → Congelados
+  (86/117) ✅ 'Nueces Hacendado' → Frutos secos
+  (87/117) ✅ 'Almendras tostadas Hacendado' → Frutos secos
+  (88/117) ✅ 'Pistachos tostados Hacendado' → Frutos secos
+  (89/117) ✅ 'Champú pH neutro Deliplus' → Higiene personal
+  (90/117) ✅ 'Desodorante roll-on extra cream Deliplus' → Higiene personal
+  (91/117) ✅ 'Pasta de dientes acción total Deliplus' → Higiene personal
+  (92/117) ✅ 'Crema solar facial FPS 50+ Deliplus' → Protectores solares
+  (93/117) ✅ 'Toallitas de bebé Deliplus' → Higiene infantil
+  (94/117) ❌ 'Pañales talla 4 Deliplus' → Alimentación infantil (Esperado: Higiene infantil)
+  (95/117) ✅ 'Comida para perro adulto Compy con pollo' → Alimentación mascotas
+  (96/117) ❌ 'Lejía normal Bosque Verde' → Aceite y vinagre (Esperado: Productos de limpieza)
+  (97/117) ❌ 'Fregasuelos pino Bosque Verde' → Fruta y verdura (Esperado: Productos de limpieza)
+  (98/117) ✅ 'Detergente líquido Marsella Bosque Verde' → Detergentes y suavizantes
+  (99/117) ❌ 'Suavizante ropa hipoalergénico Bosque Verde' → Higiene personal (Esperado: Detergentes y suavizantes)
+  (100/117) ❌ 'Lavavajillas a mano ultra Bosque Verde' → Aceite y vinagre (Esperado: Productos de limpieza)
+  (101/117) ❌ 'Pastillas para lavavajillas todo en 1 Bosque Verde' → Detergentes y suavizantes (Esperado: Productos de limpieza)
+  (102/117) ❌ 'Papel higiénico doble capa Bosque Verde' → Higiene personal (Esperado: Papel y cartón)
+  (103/117) ❌ 'Rollo de cocina Bosque Verde' → Arroz, legumbres y pastas (Esperado: Papel y cartón)
+  (104/117) ❌ 'Servilletas de papel Bosque Verde' → Bolsas y envoltorios (Esperado: Papel y cartón)
+  (105/117) ✅ 'Bolsas de basura 30L Bosque Verde' → Bolsas y envoltorios
+  (106/117) ❌ 'Film transparente Bosque Verde' → Aceite y vinagre (Esperado: Bolsas y envoltorios)
+  (107/117) ❌ 'Papel de aluminio Bosque Verde' → Papel y cartón (Esperado: Bolsas y envoltorios)
+  (108/117) ❌ 'Velas de cumpleaños' → Arroz, legumbres y pastas (Esperado: Menaje y utensilios)
+  (109/117) ❌ 'Pilas alcalinas AA Deliplus' → Higiene personal (Esperado: Menaje y utensilios)
+  (110/117) ❌ 'Bombilla LED estándar E27' → Electrónica (Esperado: Menaje y utensilios)
+  (111/117) ❌ 'Ensaladilla rusa Hacendado' → Fruta y verdura (Esperado: Platos preparados)
+  (112/117) ❌ 'Hummus de garbanzo Hacendado' → Fruta y verdura (Esperado: Platos preparados)
+  (113/117) ❌ 'Gazpacho andaluz Hacendado' → Fruta y verdura (Esperado: Caldos y cremas)
+  (114/117) ❌ 'Salmorejo Hacendado' → Fruta y verdura (Esperado: Caldos y cremas)
+  (115/117) ✅ 'Bebida de soja Hacendado' → Bebidas vegetales
+  (116/117) ✅ 'Bebida de avena Hacendado' → Bebidas vegetales
+  (117/117) ❌ 'Tofu firme Hacendado' → Frutos secos (Esperado: Platos preparados)
+
+📊 Resultados para llama3:
+  - Precisión: 71/117 (60.68%)
+  - Tiempo promedio por clasificación: 0.8953 segundos
+--------------------------------------------------
+🧪 Evaluando modelo: dolphin-mistral
+  (1/117) ✅ 'Agua mineral natural Bezoya' → Agua
+  (2/117) ✅ 'Refresco Coca-Cola Zero Azúcar' → Refrescos
+  (3/117) ✅ 'Cerveza Radler Steinburg con zumo natural de limón' → Cerveza
+  (4/117) ✅ 'Vino tinto D.O Rioja Crianza Comportillo' → Vino
+  (5/117) ✅ 'Café molido natural Hacendado' → Café
+  (6/117) ✅ 'Leche entera Hacendado' → Lácteos
+  (7/117) ❌ 'Zumo de naranja, zanahoria y jengibre Hacendado' → Frutos secos (Esperado: Zumos)
+  (8/117) ❌ 'Huevos grandes de gallinas criadas en suelo' → Fruta y verdura (Esperado: Huevos)
+  (9/117) ❌ 'Mantequilla sin sal añadida Hacendado' → Frutos secos (Esperado: Lacteos)
+  (10/117) ✅ 'Pan de molde 100% integral Hacendado' → Panadería
+  (11/117) ✅ 'Cereales copos de maíz tostado Hacendado sin gluten' → Galletas y cereales
+  (12/117) ❌ 'Miel de flores Hacendado' → Frutos secos (Esperado: Mermelada y miel)
+  (13/117) ✅ 'Aceite de oliva virgen extra Hacendado' → Aceite y vinagre
+  (14/117) ✅ 'Salsa brava Hacendado' → Salsas
+  (15/117) ✅ 'Caldo de pollo Hacendado' → Caldos y cremas
+  (16/117) ❌ 'Atún claro en aceite de girasol Hacendado' → Congelados (Esperado: Conservas)
+  (17/117) ❌ 'Lenteja cocida Hacendado' → Fruta y verdura (Esperado: Arroz, legumbres y pastas)
+  (18/117) ✅ 'Arroz redondo Hacendado' → Arroz, legumbres y pastas
+  (19/117) ✅ 'Macarrones Hacendado' → Arroz, legumbres y pastas
+  (20/117) ❌ 'Harina de trigo Hacendado' → Frutos secos (Esperado: Panadería)
+  (21/117) ✅ 'Plátano de Canarias IGP' → Fruta y verdura
+  (22/117) ✅ 'Filetes de pechuga de pollo finos' → Carne
+  (23/117) ❌ 'Salmón sin piel y sin espinas Hacendado ultracongelado' → Pescado y marisco (Esperado: Congelados)
+  (24/117) ✅ 'Queso tierno de vaca Hacendado en lonchas' → Quesos
+  (25/117) ❌ 'Yogur natural Hacendado' → Galletas y cereales (Esperado: Lacteos)
+  (26/117) ✅ 'Helado Biscuit Hacendado sabor galleta caramelizada' → Congelados
+  (27/117) ❌ 'Patatas prefritas corte grueso Hacendado ultracongeladas' → Snacks y aperitivos (Esperado: Congelados)
+  (28/117) ✅ 'Lasaña a la boloñesa Hacendado ultracongelada' → Congelados
+  (29/117) ✅ 'Chocolate negro 85% Hacendado' → Chocolate
+  (30/117) ❌ 'Pipas de girasol tostadas Hacendado' → Aceite y vinagre (Esperado: Frutos secos)
+  (31/117) ❌ 'Gel de baño Argán Deliplus' → Ambientadores (Esperado: Higiene personal)
+  (32/117) ✅ 'Comida para gato adulto Delikuit con salmón y atún' → Alimentación mascotas
+  (33/117) ✅ 'Cebolla' → Fruta y verdura
+  (34/117) ✅ 'Tomate pera' → Fruta y verdura
+  (35/117) ❌ 'Ajo' → Especias (Esperado: Fruta y verdura)
+  (36/117) ✅ 'Pimiento verde italiano' → Fruta y verdura
+  (37/117) ✅ 'Calabacín' → Fruta y verdura
+  (38/117) ✅ 'Berenjena' → Fruta y verdura
+  (39/117) ✅ 'Champiñón laminado' → Fruta y verdura
+  (40/117) ✅ 'Manzana Golden' → Fruta y verdura
+  (41/117) ✅ 'Pera Conferencia' → Fruta y verdura
+  (42/117) ✅ 'Naranja' → Fruta y verdura
+  (43/117) ✅ 'Limón' → Fruta y verdura
+  (44/117) ✅ 'Carne picada de vacuno' → Carne
+  (45/117) ✅ 'Costillas de cerdo troceadas' → Carne
+  (46/117) ✅ 'Chorizo oreado Hacendado' → Charcutería
+  (47/117) ✅ 'Jamón serrano Hacendado en lonchas' → Charcutería
+  (48/117) ❌ 'Pechuga de pavo Hacendado en lonchas finas' → Frutos secos (Esperado: Charcuteria)
+  (49/117) ❌ 'Salchichas frankfurt Hacendado' → Congelados (Esperado: Charcuteria)
+  (50/117) ✅ 'Merluza en rodajas Hacendado ultracongelada' → Congelados
+  (51/117) ✅ 'Gambón Hacendado ultracongelado' → Congelados
+  (52/117) ❌ 'Mejillones en escabeche Hacendado' → Pescado y marisco (Esperado: Conservas)
+  (53/117) ❌ 'Sardinas en aceite de oliva Hacendado' → Aceite y vinagre (Esperado: Conservas)
+  (54/117) ❌ 'Maíz dulce Hacendado' → Frutos secos (Esperado: Conservas)
+  (55/117) ❌ 'Pimiento rojo asado en tiras Hacendado' → Fruta y verdura (Esperado: Conservas)
+  (56/117) ❌ 'Aceitunas verdes sin hueso Hacendado' → Aceite y vinagre (Esperado: Snacks y aperitivos)
+  (57/117) ✅ 'Patatas fritas lisas Hacendado' → Snacks y aperitivos
+  (58/117) ✅ 'Galletas María Hacendado' → Galletas y cereales
+  (59/117) ✅ 'Croissant Hacendado' → Bollería y repostería
+  (60/117) ✅ 'Magdalenas Hacendado' → Bollería y repostería
+  (61/117) ✅ 'Donut Hacendado' → Bollería y repostería
+  (62/117) ❌ 'Yogur griego natural Hacendado' → Galletas y cereales (Esperado: Lacteos)
+  (63/117) ❌ 'Flan de huevo Hacendado' → Frutos secos (Esperado: Postres)
+  (64/117) ❌ 'Natillas de vainilla Hacendado' → Galletas y cereales (Esperado: Postres)
+  (65/117) ✅ 'Queso fresco de Burgos Hacendado' → Quesos
+  (66/117) ✅ 'Queso rallado 4 quesos Hacendado' → Quesos
+  (67/117) ❌ 'Nata para cocinar Hacendado' → Aceite y vinagre (Esperado: Lacteos)
+  (68/117) ✅ 'Vino blanco D.O Rueda Verdejo Abadía Mantrús' → Vino
+  (69/117) ✅ 'Cerveza clásica Steinburg' → Cerveza
+  (70/117) ✅ 'Refresco de limón Hacendado' → Refrescos
+  (71/117) ❌ 'Tónica Hacendado' → Aceite y vinagre (Esperado: Refrescos)
+  (72/117) ✅ 'Infusión de manzanilla Hacendado' → Infusiones
+  (73/117) ✅ 'Colacao Original' → Cacao
+  (74/117) ❌ 'Sal fina Hacendado' → Aceite y vinagre (Esperado: Sal y bicarbonato)
+  (75/117) ✅ 'Pimienta negra molida Hacendado' → Especias
+  (76/117) ✅ 'Orégano Hacendado' → Especias
+  (77/117) ✅ 'Vinagre de vino blanco Hacendado' → Aceite y vinagre
+  (78/117) ❌ 'Mayonesa Hacendado' → Frutos secos (Esperado: Salsas)
+  (79/117) ❌ 'Ketchup Hacendado' → Frutos secos (Esperado: Salsas)
+  (80/117) ❌ 'Mostaza Dijon Hacendado' → Aceite y vinagre (Esperado: Salsas)
+  (81/117) ❌ 'Tomate frito Hacendado' → Fruta y verdura (Esperado: Salsas)
+  (82/117) ❌ 'Tortilla de patatas y cebolla Hacendado' → Frutos secos (Esperado: Platos preparados)
+  (83/117) ❌ 'Pizza 4 quesos Hacendado' → Frutos secos (Esperado: Platos preparados)
+  (84/117) ✅ 'Salteado de verduras Hacendado ultracongelado' → Congelados
+  (85/117) ✅ 'Paella de marisco Hacendado ultracongelada' → Congelados
+  (86/117) ✅ 'Nueces Hacendado' → Frutos secos
+  (87/117) ✅ 'Almendras tostadas Hacendado' → Frutos secos
+  (88/117) ✅ 'Pistachos tostados Hacendado' → Frutos secos
+  (89/117) ✅ 'Champú pH neutro Deliplus' → Higiene personal
+  (90/117) ✅ 'Desodorante roll-on extra cream Deliplus' → Higiene personal
+  (91/117) ✅ 'Pasta de dientes acción total Deliplus' → Higiene personal
+  (92/117) ❌ 'Crema solar facial FPS 50+ Deliplus' → Higiene personal (Esperado: Protectores solares)
+  (93/117) ❌ 'Toallitas de bebé Deliplus' → Alimentación infantil (Esperado: Higiene infantil)
+  (94/117) ❌ 'Pañales talla 4 Deliplus' → Alimentación infantil (Esperado: Higiene infantil)
+  (95/117) ✅ 'Comida para perro adulto Compy con pollo' → Alimentación mascotas
+  (96/117) ❌ 'Lejía normal Bosque Verde' → Aceite y vinagre (Esperado: Productos de limpieza)
+  (97/117) ❌ 'Fregasuelos pino Bosque Verde' → Aceite y vinagre (Esperado: Productos de limpieza)
+  (98/117) ✅ 'Detergente líquido Marsella Bosque Verde' → Detergentes y suavizantes
+  (99/117) ✅ 'Suavizante ropa hipoalergénico Bosque Verde' → Detergentes y suavizantes
+  (100/117) ❌ 'Lavavajillas a mano ultra Bosque Verde' → Bolsas y envoltorios (Esperado: Productos de limpieza)
+  (101/117) ❌ 'Pastillas para lavavajillas todo en 1 Bosque Verde' → Arroz, legumbres y pastas (Esperado: Productos de limpieza)
+  (102/117) ❌ 'Papel higiénico doble capa Bosque Verde' → Bolsas y envoltorios (Esperado: Papel y cartón)
+  (103/117) ❌ 'Rollo de cocina Bosque Verde' → Aceite y vinagre (Esperado: Papel y cartón)
+  (104/117) ❌ 'Servilletas de papel Bosque Verde' → Bolsas y envoltorios (Esperado: Papel y cartón)
+  (105/117) ✅ 'Bolsas de basura 30L Bosque Verde' → Bolsas y envoltorios
+  (106/117) ✅ 'Film transparente Bosque Verde' → Bolsas y envoltorios
+  (107/117) ✅ 'Papel de aluminio Bosque Verde' → Bolsas y envoltorios
+  (108/117) ❌ 'Velas de cumpleaños' → Bollería y repostería (Esperado: Menaje y utensilios)
+  (109/117) ❌ 'Pilas alcalinas AA Deliplus' → Bolsas y envoltorios (Esperado: Menaje y utensilios)
+  (110/117) ❌ 'Bombilla LED estándar E27' → Bolsas y envoltorios (Esperado: Menaje y utensilios)
+  (111/117) ❌ 'Ensaladilla rusa Hacendado' → Fruta y verdura (Esperado: Platos preparados)
+  (112/117) ❌ 'Hummus de garbanzo Hacendado' → Frutos secos (Esperado: Platos preparados)
+  (113/117) ❌ 'Gazpacho andaluz Hacendado' → Fruta y verdura (Esperado: Caldos y cremas)
+  (114/117) ❌ 'Salmorejo Hacendado' → Fruta y verdura (Esperado: Caldos y cremas)
+  (115/117) ✅ 'Bebida de soja Hacendado' → Bebidas vegetales
+  (116/117) ✅ 'Bebida de avena Hacendado' → Bebidas vegetales
+  (117/117) ❌ 'Tofu firme Hacendado' → Frutos secos (Esperado: Platos preparados)
+
+📊 Resultados para dolphin-mistral:
+  - Precisión: 67/117 (57.26%)
+  - Tiempo promedio por clasificación: 0.7443 segundos
+--------------------------------------------------
+
+🏆 Resumen Final del Benchmark 🏆
+  - Modelo: mistral         | Precisión: 65.81% | Tiempo prom.: 0.8076s
+  - Modelo: llama3          | Precisión: 60.68% | Tiempo prom.: 0.8953s
+  - Modelo: dolphin-mistral | Precisión: 57.26% | Tiempo prom.: 0.7443s

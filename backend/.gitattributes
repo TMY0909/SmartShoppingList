@@ -1,0 +1,2 @@
+*.sh text eol=lf
+llm/Modelfiles/* text eol=lf

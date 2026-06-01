@@ -1,0 +1,71 @@
+{
+  "Alimentación": [
+    "Aceite y vinagre",
+    "Sal y bicarbonato",
+    "Especias",
+    "Salsas",
+    "Arroz, legumbres y pastas",
+    "Azúcar y edulcorantes",
+    "Chicles, caramelos y golosinas",
+    "Chocolate",
+    "Mermelada y miel",
+    "Cacao",
+    "Café",
+    "Infusiones",
+    "Snacks y aperitivos",
+    "Frutos secos",
+    "Galletas y cereales",
+    "Charcutería",
+    "Quesos",
+    "Platos preparados",
+    "Postres",
+    "Conservas",
+    "Congelados",
+    "Caldos y cremas",
+    "Panadería",
+    "Bollería y repostería",
+    "Lácteos",
+    "Bebidas vegetales"
+  ],
+  "Bebidas": [
+    "Agua",
+    "Refrescos",
+    "Cerveza",
+    "Licores y cremas",
+    "Sidra",
+    "Cava y champagne",
+    "Vino",
+    "Zumos"
+  ],
+  "Frescos": [
+    "Carne",
+    "Pescado y marisco",
+    "Fruta y verdura",
+    "Huevos"
+  ],
+  "Infantil": [
+    "Alimentación infantil",
+    "Higiene infantil"
+  ],
+  "Hogar y limpieza": [
+    "Productos de limpieza",
+    "Ambientadores",
+    "Bolsas y envoltorios",
+    "Papel y cartón",
+    "Menaje y utensilios",
+    "Insecticidas y plagas",
+    "Detergentes y suavizantes"
+  ],
+  "Higiene y maquillaje": [
+    "Higiene personal",
+    "Maquillaje",
+    "Parafarmacia",
+    "Protectores solares",
+    "Perfumería"
+  ],
+  "Mascotas": [
+    "Alimentación mascotas",
+    "Higiene mascotas"
+  ]
+}
+

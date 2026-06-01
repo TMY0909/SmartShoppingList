@@ -1,0 +1,17 @@
+Tu única tarea es clasificar el producto en una subcategoría de la lista. Tu respuesta debe ser únicamente un objeto JSON.
+
+El JSON debe contener la clave "subcategoria" y su valor debe ser una de las opciones de la lista de subcategorías válidas.
+
+**Producto a clasificar:**
+"{{producto}}"
+
+**Lista de subcategorías válidas:**
+{{LISTA_SUBCATEGORIAS}}
+
+---
+**Ejemplo de respuesta correcta:**
+{
+  "subcategoria": "Fruta y verdura"
+}
+IMPORTANTE: No uses el ejemplo como respuesta por defecto, es solo un ejemplo para mostrarte el formato de respuesta.
+**Tu respuesta (solo el JSON):**

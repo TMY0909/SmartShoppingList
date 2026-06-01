@@ -1,0 +1,71 @@
+services:
+  db:
+    image: postgres:17
+    env_file:
+      - ./backend/core/.env
+    environment:
+      POSTGRES_USER: ${DB_USER} 
+      POSTGRES_PASSWORD: ${DB_PASS} 
+      POSTGRES_DB: SmartShoppingListDB
+    ports:
+      - "5432:5432"
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+      - ./backend/dataset.sql:/docker-entrypoint-initdb.d/dataset.sql
+
+  ollama:
+    image: ollama/ollama
+    ports:
+      - "11434:11434"
+    environment:
+      - OLLAMA_NUM_PARALLEL=3
+    volumes:
+      - ollama_data:/root/.ollama
+      - ./backend/llm/init-ollama.sh:/init-ollama.sh
+      - ./backend/llm/Modelfiles/Modelfile.etiquetador.txt:/tmp/Modelfile
+    entrypoint: /bin/bash
+    command: /init-ollama.sh
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+  api:
+    build: ./backend
+    command: fastapi run main.py --port 8000
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+      - ollama
+    env_file:
+      - ./backend/core/.env
+
+  scraper:
+    build: ./backend
+    shm_size: '2gb'
+    command: python scheduler.py
+    depends_on:
+      - db
+      - ollama
+    env_file:
+      - ./backend/core/.env
+    volumes:
+      - ./backend:/app
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "5173:5173"
+    depends_on:
+      - api
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+
+volumes:
+  pg_data:
+  ollama_data:

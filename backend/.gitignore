@@ -1,0 +1,25 @@
+# .gitignore
+
+__pycache__/
+core/.env
+db/__pycache__/
+db/temp/
+llm/__pycache__/
+llm/datasets/productos_test_benchmark/
+llm/colectorErroresClasificacion.py
+llm/benchmark.py
+llm/resultados/resultadosViejos
+llm/prompts/promtsAntiguos
+log/
+productos/historico/
+productos/pre_historico/
+productos/productosClasificar/
+productos/productosEtiquetar/
+salida_scraper/
+schemas/__pycache__/
+scraper/*.json
+scraper/__pycache__/
+scraper/ScriptsAuxiliares/
+services/__pycache__/
+tmp/
+venv/
